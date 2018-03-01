@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif; }
+
+.wrapper {
+  max-width: 70vw;
+  margin: 0 auto;
+  display: block;
+  padding-left: 2em;
+  padding-right: 2em; }
