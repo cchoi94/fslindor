@@ -5,6 +5,8 @@ import {
     Route, Link, NavLink } from 'react-router-dom';
 import { ajax } from 'jquery';
 
+import Landing from './components/landing/landing';
+
 class App extends React.Component {
     render() {
         return (
