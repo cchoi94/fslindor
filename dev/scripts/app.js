@@ -7,13 +7,17 @@ import { ajax } from 'jquery';
 
 import Landing from './components/landing/landing';
 import Navbar from './components/navbar/navbar';
+import About from './components/about/about';
+import Sponsor from './components/sponsor/sponsor';
 
 class App extends React.Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <h1>Hello React! Stuff Works</h1>
+                <Landing />
+                <About />
+                <Sponsor />
             </div>
         )
     }

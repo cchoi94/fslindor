@@ -1,0 +1,24 @@
+.about {
+    text-align: center;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textBox {
+    text-align: center;
+    width: 30%;
+    border: 2px solid rgb(252, 146, 8);
+    padding: 2em;
+    border-radius: 20px;
+    ul {
+        list-style: initial;
+        text-align: left;
+    }
+}
+
+p {
+    line-height: 2.5;
+}

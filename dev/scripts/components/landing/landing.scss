@@ -1,0 +1,57 @@
+.logo-slide {
+    height: 80vh;
+    position: relative;
+}
+
+.slideOne {
+    background: url('/assets/images/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slideTwo {
+    background: url('/assets/images/communityOne.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slideThree {
+    background: url("/assets/images/communityTwo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.slideFour {
+    background: url("/assets/images/Haiti.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.slideFive {
+    background: url("/assets/images/rencontre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(rgba(0, 0, 0, 0), black);
+    color: #fff;
+    width: 99vw;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.carousel {
+    padding-top: 8em;
+}
