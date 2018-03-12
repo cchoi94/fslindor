@@ -20,9 +20,9 @@
   .navLinks li {
     color: #1e1e1e; }
 
-.donate {
+button {
   border-radius: 50px;
-  background: #fc9208;
+  background: #ffa938;
   color: #fff;
   padding: 0.3em 1em;
   font-size: 1.5em; }
@@ -77,25 +77,129 @@ h3 {
 .about {
   text-align: center; }
 
-.textContainer {
-  display: flex;
-  justify-content: space-around; }
-
-.textBox {
-  text-align: center;
-  width: 30%;
-  border: 2px solid #fc9208;
-  padding: 2em;
-  border-radius: 20px; }
-  .textBox ul {
-    list-style: initial;
-    text-align: left; }
-
 p {
   line-height: 2.5; }
 
-.sponsor {
+.bioBox {
+  width: 45%; }
+  .bioBox p {
+    text-align: left;
+    line-height: 2;
+    font-size: 0.9em; }
+
+#team .wrapper {
   text-align: center; }
+
+.bioImg {
+  padding: 8em;
+  margin: 2em 0; }
+
+.bioImgOne {
+  background: url("/assets/images/bioImages/aFontaine.png") no-repeat center;
+  background-size: contain; }
+
+.bioImgTwo {
+  background: url("/assets/images/bioImages/cSullivan.png") no-repeat center;
+  background-size: contain; }
+
+.bioImgThree {
+  background: url("/assets/images/bioImages/jMandoko.png") no-repeat center;
+  background-size: contain; }
+
+.bioImgFour {
+  background: url("/assets/images/bioImages/eFrancois.png") no-repeat center;
+  background-size: contain; }
+
+.bioImgFive {
+  background: url("/assets/images/bioImages/aKorn.png") no-repeat center;
+  background-size: contain; }
+
+.bioImgSix {
+  background: url("/assets/images/bioImages/cSmith.png") no-repeat center;
+  background-size: contain; }
+
+.hidden {
+  display: none; }
+
+.block {
+  display: block; }
+
+.bioBox button {
+  padding: 0.3em 0.5em;
+  font-size: 1.2em;
+  margin: 0.5em 0; }
+
+.sponsor {
+  text-align: center;
+  background-color: #ffc266; }
+
+.sponsorLogo {
+  padding: 6em;
+  margin: 0 1em; }
+
+.sLogoOne {
+  background: url("/assets/images/canadaLogo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.sLogoTwo {
+  background: url("/assets/images/afo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.sLogoThree {
+  background: url("/assets/images/consulates.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.sLogoFour {
+  background: url("/assets/images/ericPierre.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.sLogoFive {
+  background: url("/assets/images/perleDesAntilles.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.sLogoSix {
+  background: url("/assets/images/reseauDeSoutien.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.communitySponsors {
+  line-height: 2.5; }
+
+.sponsor button {
+  background: #fff;
+  color: #fc9208; }
+
+.sponsor h1 {
+  border-bottom: 2px solid #1e1e1e;
+  display: inline-block;
+  line-height: 2; }
+
+.contact {
+  text-align: center; }
+  .contact .imgBox {
+    justify-content: center; }
+
+i {
+  font-size: 3em;
+  padding: 0 1em;
+  transition: 0.3s; }
+
+i:hover {
+  transform: scale(1.3); }
+
+.eventsPrograms .container {
+  display: block; }
 
 * {
   box-sizing: border-box;
@@ -125,20 +229,47 @@ a {
   color: #1e1e1e; }
 
 section {
-  padding: 4em 0; }
+  padding: 2em 0; }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 300;
-  margin-bottom: 0.8em; }
+  margin: 1.2em auto 1em auto;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid #ffc266;
+  display: inline-block;
+  line-height: 2; }
 
 h2 {
   font-size: 2em;
-  padding-bottom: 1em; }
+  padding-bottom: 1em;
+  margin-top: 1em; }
 
 button {
   transition: 0.3s; }
 
+button:focus {
+  outline: none; }
+
 button:hover {
   transform: scale(1.05);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+.container {
+  display: flex;
+  justify-content: space-around; }
+
+.textBox {
+  text-align: center;
+  width: 30%;
+  border: 2px solid #ffc266;
+  padding: 2em;
+  border-radius: 20px; }
+  .textBox ul {
+    list-style: initial;
+    text-align: left; }
+
+.imgBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }

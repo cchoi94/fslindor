@@ -1,3 +1,66 @@
 .sponsor {
     text-align: center;
+    background-color: #ffc266;
+}
+
+.sponsorLogo {
+    padding: 6em;
+    margin: 0 1em;
+}
+
+.sLogoOne {
+    background: url('/assets/images/canadaLogo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sLogoTwo {
+    background: url('/assets/images/afo.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sLogoThree {
+    background: url('/assets/images/consulates.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sLogoFour {
+    background: url('/assets/images/ericPierre.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sLogoFive {
+    background: url('/assets/images/perleDesAntilles.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sLogoSix {
+    background: url('/assets/images/reseauDeSoutien.jpeg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.communitySponsors {
+    line-height: 2.5;
+}
+
+.sponsor button {
+    background: #fff;
+    color: rgb(252, 146, 8);
+}
+
+.sponsor h1 {
+    border-bottom: 2px solid #1e1e1e;
+    display: inline-block;
+    line-height: 2;
 }

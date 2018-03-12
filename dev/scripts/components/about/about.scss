@@ -2,23 +2,68 @@
     text-align: center;
 }
 
-.textContainer {
-    display: flex;
-    justify-content: space-around;
-}
-
-.textBox {
-    text-align: center;
-    width: 30%;
-    border: 2px solid rgb(252, 146, 8);
-    padding: 2em;
-    border-radius: 20px;
-    ul {
-        list-style: initial;
-        text-align: left;
-    }
-}
-
 p {
     line-height: 2.5;
+}
+
+.bioBox {
+    width: 45%;
+        p {
+            text-align: left;
+            line-height: 2;
+            font-size: 0.9em;
+        }
+}
+
+#team .wrapper {
+    text-align: center;
+}
+
+.bioImg {
+    padding: 8em;
+    margin: 2em 0;
+}
+
+.bioImgOne {
+    background: url('/assets/images/bioImages/aFontaine.png') no-repeat center;
+    background-size: contain;
+}
+
+.bioImgTwo {
+    background: url('/assets/images/bioImages/cSullivan.png') no-repeat center;
+    background-size: contain;
+}
+
+.bioImgThree {
+    background: url('/assets/images/bioImages/jMandoko.png') no-repeat center;
+    background-size: contain;
+}
+
+.bioImgFour {
+    background: url('/assets/images/bioImages/eFrancois.png') no-repeat center;
+    background-size: contain;
+}
+
+.bioImgFive {
+    background: url('/assets/images/bioImages/aKorn.png') no-repeat center;
+    background-size: contain;
+}
+
+.bioImgSix {
+    background: url('/assets/images/bioImages/cSmith.png') no-repeat center;
+    background-size: contain;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.bioBox button {
+    padding: 0.3em 0.5em;
+    font-size: 1.2em;
+    margin: 0.5em 0;
 }

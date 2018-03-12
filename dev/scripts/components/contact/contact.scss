@@ -1,0 +1,16 @@
+.contact {
+    text-align: center;
+        .imgBox {
+            justify-content: center;
+        }
+}
+
+i {
+    font-size: 3em;
+    padding: 0 1em;
+    transition: 0.3s;
+}
+
+i:hover {
+    transform: scale(1.3);
+}

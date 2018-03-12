@@ -2,6 +2,8 @@
 @import 'scripts/components/landing/landing.scss';
 @import 'scripts/components/about/about.scss';
 @import 'scripts/components/sponsor/sponsor.scss';
+@import 'scripts/components/contact/contact.scss';
+@import 'scripts/components/eventsPrograms/eventsPrograms.scss';
 
 * {
     box-sizing: border-box;
@@ -37,25 +39,57 @@ a {
 }
 
 section {
-    padding: 4em 0;
+    padding: 2em 0;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 300;
-    margin-bottom: 0.8em;
+    margin: 1.2em auto 1em auto;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid #ffc266;
+    display: inline-block;
+    line-height: 2;
 }
 
 h2 {
     font-size: 2em;
     padding-bottom: 1em;
+    margin-top: 1em;
 }
 
 button {
     transition: 0.3s;
 }
 
+button:focus {
+    outline: none;
+}
+
 button:hover {
     transform: scale(1.05);
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.textBox {
+    text-align: center;
+    width: 30%;
+    border: 2px solid #ffc266;
+    padding: 2em;
+    border-radius: 20px;
+    ul {
+        list-style: initial;
+        text-align: left;
+    }
+}
+
+.imgBox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
