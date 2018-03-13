@@ -48,37 +48,37 @@ class Navbar extends React.Component {
                     <div className={showHam}>
                             <img className="logo" src="/assets/images/logo.png" alt="logo"/>
                                 <ul className="navLinks">
-                                    <a href="#home">
+                                    <a onClick={this.handleShowHam} href="#home">
                                         <li>
                                             Home
                                         </li>
                                     </a>
-                                    <a href="#about">
+                                    <a onClick={this.handleShowHam} href="#about">
                                         <li>
                                             About Us
                                         </li>
                                     </a>
-                                    <a href="#team">
+                                    <a onClick={this.handleShowHam} href="#team">
                                         <li>
                                             Team
                                         </li>
                                     </a>
-                                    <a href="#eventsPrograms">
+                                    <a onClick={this.handleShowHam} href="#eventsPrograms">
                                         <li>
                                             Events and Programs
                                         </li>
                                     </a>
-                                    <a href="#media">
+                                    <a onClick={this.handleShowHam} href="#media">
                                         <li>
                                             Media
                                         </li>
                                     </a>
-                                    <a href="#sponsor">
+                                    <a onClick={this.handleShowHam} href="#sponsor">
                                         <li>
                                             Become a Supporter
                                         </li>
                                     </a>
-                                    <a href="#contact">
+                                    <a onClick={this.handleShowHam} href="#contact">
                                         <li>
                                             Contact Us
                                         </li>
