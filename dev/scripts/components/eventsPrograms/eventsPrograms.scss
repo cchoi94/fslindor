@@ -1,5 +1,15 @@
 .eventsPrograms {
+    h1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%)
+    }
     .container {
         display: block;
+    }
+    img {
+        width: 50%;
+        height: 22em;
+        padding: 1em;
     }
 }

@@ -10,6 +10,7 @@ class About extends React.Component {
             showBioDesFour: false,
             showBioDesFive: false,
             showBioDesSix: false,
+            showBioDesSeven: false,
         };
         
         this.handleShowBioOne = this.handleShowBioOne.bind(this);
@@ -18,6 +19,7 @@ class About extends React.Component {
         this.handleShowBioFour = this.handleShowBioFour.bind(this);
         this.handleShowBioFive = this.handleShowBioFive.bind(this);
         this.handleShowBioSix = this.handleShowBioSix.bind(this);
+        this.handleShowBioSeven = this.handleShowBioSeven.bind(this);
     }
 
     handleShowBioOne(e) {
@@ -62,6 +64,13 @@ class About extends React.Component {
         })
     }
 
+    handleShowBioSeven(e) {
+        let toggleBio = !this.state.showBioDesSeven
+        this.setState ({
+            showBioDesSeven: toggleBio
+        })
+    }
+
 
     render () { 
 
@@ -71,6 +80,7 @@ class About extends React.Component {
         let showDesFour = (this.state.showBioDesFour) ? 'block' : 'hidden';
         let showDesFive = (this.state.showBioDesFive) ? 'block' : 'hidden';
         let showDesSix = (this.state.showBioDesSix) ? 'block' : 'hidden';
+        let showDesSeven = (this.state.showBioDesSeven) ? 'block' : 'hidden'
 
         return (
             <div>
@@ -106,6 +116,12 @@ class About extends React.Component {
                             <div className="wrapper">
                             <h1>Our Team</h1>
                             <div className="container">
+                            <p>
+                                The Sylvenie Lindor Foundation has emerged as means toward helping Black francophone Youth succeed in overcoming 
+                                social & Linguistics barriers in the City of Toronto.  We use soccer and Youth dialogue for Integration, Inclusion and Social Cohesion that 
+                                enable Youth exploring opportunities 
+                            </p>
+                            </div>
                                 <div className="bioBox">
                                     <div className="bioImg bioImgOne"></div>
                                     <label>Amikley Fontaine <br/> Founder & CEO</label>
@@ -117,6 +133,7 @@ class About extends React.Component {
                                         Mr.Fontaine with the Sylvenie Lindor Foundation organizes every year the Multicultural Forum as a mean to promote the Francophone Culture and reduce social barriers in Toronto. 
                                     </p>
                                 </div>
+                            <div className="container">
                                 <div className="bioBox">
                                     <div className="bioImg bioImgTwo"></div>
                                     <label>Christopher Sullivan <br/> Director of Communications </label>
@@ -128,11 +145,9 @@ class About extends React.Component {
                                         become more involved with the Fondation over the past few years, and more understanding of the needs of the Haitian community, both here in this city, and elsewhere--especially in the case where they are migrants seeking to come to Canada
                                     </p>
                                 </div>
-                            </div>
-                            <div className="container">
                                 <div className="bioBox">
                                     <div className="bioImg bioImgThree"></div>
-                                    <label>Junior Mandoko <br/> MA Bongoy Public Outreach Ambassador</label>
+                                    <label>Junior Mandoko, MA <br/> Bongoy Public Outreach Ambassador</label>
                                     <br/>
                                     <button onClick={this.handleShowBioThree}>Read more</button>
                                     <p className={showDesThree}>
@@ -141,7 +156,7 @@ class About extends React.Component {
                                 </div>
                                 <div className="bioBox">
                                     <div className="bioImg bioImgFour"></div>
-                                    <label>M. Emilio François <br/> BA, Director of Finance</label>
+                                    <label>M. Emilio François, BA<br/> Director of Finance</label>
                                     <br/>
                                     <button onClick={this.handleShowBioFour}>Read more</button>
                                     <p className={showDesFour}>
@@ -153,7 +168,7 @@ class About extends React.Component {
                             <div className="container">
                                 <div className="bioBox">
                                     <div className="bioImg bioImgFive"></div>
-                                    <label>Mr. Ari Korn <br/> BA , Event Planer</label>
+                                    <label>Mr. Ari Korn, BA  <br/> Event Planer</label>
                                     <br/>
                                     <button onClick={this.handleShowBioFive}>Read more</button>
                                     <p className={showDesFive}>
@@ -172,7 +187,23 @@ class About extends React.Component {
                                         for youth and new immigrants to Canada, a contribution to which she has always aspired.   
                                     </p>
                                 </div>
+                                <div className="bioBox">
+                                    <div className="bioImg bioImgSeven"></div>
+                                    <label>Mrs Fayse Lindor <br/> Community Liaison Officer</label>
+                                    <br/>
+                                    <button onClick={this.handleShowBioSeven}>Read more</button>
+                                    <p className={showDesSeven}></p>
+                                </div>
                             </div>
+                                <h2>Excutive team</h2>
+                                    <ul>
+                                        <li>Mr. Daniel Steinhart</li>
+                                        <li>Mr. Buner Fontaine</li>
+                                        <li>Mrs. Marie Michelle Simeon</li>
+                                        <li>Ms. Marie Yannick Marcel</li>
+                                        <li>Mrs. Fayse Lindor</li>
+                                        <li>Mrs. Kanar Youssif</li>
+                                    </ul>
                         </div>
                 </section>
             </div>

@@ -8,7 +8,7 @@ class EventsPrograms extends React.Component {
     render () { 
         return (
             <div>
-                <section className='eventsPrograms'>
+                <section id="eventsPrograms" className='eventsPrograms'>
                     <div className="wrapper">
                         <h1>Events & Programs</h1>
                         <div className="container">
@@ -17,6 +17,14 @@ class EventsPrograms extends React.Component {
                                 Is an annual Cultural Exchange and Dialogue between Youth 18 years and older and the public in the GTA about many important topics that distinguish our lives as part of the Canadian society. Aiming to create integration in the context of cultural diversity, the Forum will help each community to explore the reality of the other. The topic changes each year. During the Multicultural Forum, each community presents a particular aspect of 
                                 their culture that enables exchanges though exposition.
                             </p>
+                            <div className="container">
+                                <img src="/assets/images/mediaImages/TAMOne.png" alt=""/>
+                                <img src="/assets/images/mediaImages/TAMTwo.png" alt=""/>
+                            </div>
+                            <div className="container">
+                                <img src="/assets/images/mediaImages/TAMThree.png" alt=""/>
+                                <img src="/assets/images/mediaImages/TAMFour.png" alt=""/>
+                            </div>
                         </div>
                         <div className="container">
                             <h2>Black History Month</h2>
@@ -31,6 +39,14 @@ class EventsPrograms extends React.Component {
                                 The Sylvenie Lindor Foundation & Jean Marcelin Fontaine Multicultural Centre considers education on Francophone Immigration as a main tool that helps Francophone Immigrants to integrate into Canadian life and to get settled into the society. At the Sylvenie Lindor Foundation &Jean Marcelin Fontaine Multicultural Centre we recognize the contribution of each cultural group to make up a vibrant and welcoming community. The National Week of Francophone Immigration is celebrated the first week of November of each year. 
                                 Across the country, Francophones and Acadians gather together to celebrate this heritage.
                             </p>
+                            <div className="container">
+                                <img src="/assets/images/mediaImages/francImmOne.png" alt=""/>
+                                <img src="/assets/images/mediaImages/francImmTwo.png" alt=""/>
+                            </div>
+                            <div className="container">
+                                <img src="/assets/images/mediaImages/francImmThree.png" alt=""/>
+                                <img src="/assets/images/mediaImages/francImmFour.png" alt=""/>
+                            </div>
                         </div>
                         <div className="container">
                             <h2>Haitian Youth Movement Canada (HYMC)</h2>
@@ -49,8 +65,8 @@ class EventsPrograms extends React.Component {
                         <div className="container">
                             <h2>Soccer Club</h2>
                             <p>
-                                Toronto United Football Club is part of the Haitian Youth Movement Canada. 
-                                The Soccer team is comprised of male athletes from a variety cultural of backgrounds.
+                                We use soccer as a means toward helping youth integrate and as well for fun. The participation of youth in the 
+                                soccer field help them developing networking with youth from variety communities. 
                             </p>
                         </div>
                         <div className="container">
@@ -61,10 +77,10 @@ class EventsPrograms extends React.Component {
                             </p>
                         </div>
                         <div className="container">
-                            <h2>Sponsorship and Education plan in Haiti</h2>
+                            <h2>Sponsorship Programs for Children in Haiti <br/> Launched in September 2014</h2>
                             <p>
-                                Sponsorship and Education plan in Haiti – This program was launched in September 2015. It has enabled us to provide school supplies and financial assistance to Children in need in Haiti. We have now 30 children in the program but more than 50 are already waiting for assistance. 
-                                All school supplies are bought in Haiti in an aim to stimulate growth of the Haitian economy.
+                                Through the sponsorship Program the Foundation assists 50 Children in need in Haiti.  
+                                Help us help a child Succeed through Education- Help us inspire this new generation. 
                             </p>
                         </div>
                         <div className="container">
@@ -72,6 +88,21 @@ class EventsPrograms extends React.Component {
                             <p>
                                 Boys and Girls Club in Haiti – A place for Youth in Haiti to be creative – to take action for change. Through ACT- Action to Change Tomorrow, the Foundation organizes workshops that enable 
                                 Youth in Haiti understanding the global world challenges and to contribute to changing them.
+                            </p>
+                        </div>
+                        <div className="container">
+                            <h2>Good night</h2>
+                            <p>
+                                This is a night where the Haitian youth and the Grenadier Fc gather for social interacting.  Good Night is held once a month.  During that night the Youth watch a movie or documentary together 
+                                and reflect on it.  The night is entertained by Music and refreshment is served. 
+                            </p>
+                        </div>
+                        <div className="container">
+                            <h2>Canadian Tours</h2>
+                            <p>
+                                We do organize Canadian Tours not only for fun but to help youth understand Canadian history. 
+                                We do visit Canadian touristic sites and museums.  An approach   to understand those who paved the 
+                                way before us for a Canada that embrace diversity
                             </p>
                         </div>
                     </div>

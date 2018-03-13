@@ -1,12 +1,23 @@
 .navbar {
   display: flex;
+  position: fixed !important;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5em 0;
+  box-shadow: 0px 10px 5px 0px rgba(30, 30, 30, 0.25);
+  z-index: 10;
+  width: 99.9%;
+  background: #fff; }
+
+.navbarHidden {
+  display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 0.5em 0;
   box-shadow: 0px 10px 5px 0px rgba(30, 30, 30, 0.25);
   position: fixed;
   z-index: 10;
-  width: 100vw;
+  width: 99.9%;
   background: #fff; }
 
 .logo {
@@ -25,6 +36,20 @@ button {
   background: #ffa938;
   color: #fff;
   padding: 0.3em 1em;
+  font-size: 1.5em; }
+
+.hamburgerIcon {
+  background: url("/assets/icons/hamburgerIcon.svg") no-repeat #fff;
+  padding: 20px;
+  float: right;
+  display: none;
+  z-index: 10; }
+
+.xHamIcon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display: none;
   font-size: 1.5em; }
 
 .logo-slide {
@@ -81,7 +106,7 @@ p {
   line-height: 2.5; }
 
 .bioBox {
-  width: 45%; }
+  width: 30%; }
   .bioBox p {
     text-align: left;
     line-height: 2;
@@ -118,6 +143,10 @@ p {
   background: url("/assets/images/bioImages/cSmith.png") no-repeat center;
   background-size: contain; }
 
+.bioImgSeven {
+  background: url("/assets/images/bioImages/fLindor.png") no-repeat center;
+  background-size: contain; }
+
 .hidden {
   display: none; }
 
@@ -129,9 +158,12 @@ p {
   font-size: 1.2em;
   margin: 0.5em 0; }
 
+.bioBox {
+  margin: 0 auto;
+  display: block; }
+
 .sponsor {
-  text-align: center;
-  background-color: #ffc266; }
+  text-align: center; }
 
 .sponsorLogo {
   padding: 6em;
@@ -181,7 +213,6 @@ p {
   color: #fc9208; }
 
 .sponsor h1 {
-  border-bottom: 2px solid #1e1e1e;
   display: inline-block;
   line-height: 2; }
 
@@ -198,8 +229,65 @@ i {
 i:hover {
   transform: scale(1.3); }
 
+.eventsPrograms h1 {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); }
+
 .eventsPrograms .container {
   display: block; }
+
+.eventsPrograms img {
+  width: 50%;
+  height: 22em;
+  padding: 1em; }
+
+.media {
+  text-align: center; }
+  .media img {
+    width: 50%;
+    height: 22em;
+    padding: 1em; }
+
+@media (max-width: 1020px) {
+  .container {
+    display: block; }
+    .container img {
+      display: block;
+      width: 100%; }
+  .slideOne, .slideTwo, .slideThree, .slideFour, .slideFive {
+    background-size: contain;
+    background-position: center;
+    height: 40vh;
+    width: 100vw; } }
+
+@media (max-width: 1208px) {
+  .container {
+    flex-direction: column; }
+    .container .textBox {
+      width: 100%; }
+  .bioBox {
+    width: 100%; }
+  .navbar {
+    flex-direction: column;
+    text-align: left;
+    position: relative; }
+    .navbar li {
+      padding: 0.5em 0; }
+  .navLinks {
+    flex-direction: column; }
+  .navbarHidden {
+    display: none;
+    position: fixed; }
+  .hamburgerIcon {
+    display: block;
+    position: fixed;
+    right: 0; }
+  .xHamIcon {
+    display: block;
+    cursor: pointer; }
+  h3 {
+    font-size: 1.5em; } }
 
 * {
   box-sizing: border-box;
@@ -211,11 +299,12 @@ html {
   font-family: 'Open Sans', sans-serif; }
 
 .wrapper {
-  max-width: 85vw;
+  max-width: 90vw;
   margin: 0 auto;
   display: block;
   padding-left: 2em;
-  padding-right: 2em; }
+  padding-right: 2em;
+  position: relative; }
 
 .logo {
   width: 100px;
@@ -242,8 +331,9 @@ h1 {
 
 h2 {
   font-size: 2em;
-  padding-bottom: 1em;
-  margin-top: 1em; }
+  margin: 1em 0;
+  border-bottom: 2px solid #ffc266;
+  display: inline-block; }
 
 button {
   transition: 0.3s; }

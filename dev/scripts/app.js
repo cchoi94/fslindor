@@ -11,14 +11,16 @@ import About from './components/about/about';
 import Sponsor from './components/sponsor/sponsor';
 import Contact from './components/contact/contact';
 import EventsPrograms from './components/eventsPrograms/eventsPrograms';
+import Media from './components/media/media';
 
-class Home extends React.Component {
+class App extends React.Component {
     render() {
         return (
             <div>
-                <Navbar />
                 <Landing />
                 <About />
+                <EventsPrograms />
+                <Media />
                 <Sponsor />
                 <Contact />
             </div>
@@ -26,26 +28,4 @@ class Home extends React.Component {
     }
 }
 
-class EventsProgramsPage extends React.Component {
-    render() {
-        return (
-            <div>
-                <Navbar />
-                <EventsPrograms />
-            </div>
-        )
-    }
-}
-
-ReactDOM.render(
-    <Router>
-        <Route path="/" component={Home} />
-        {/* <Route path="/eventsPrograms" component={EventsProgramsPage}/> */}
-    </Router>,
-    document.getElementById('app')
-);
-
-{/* <Route path="/" component={PrimaryLayout}>
-      <IndexRoute component={HomePage} />
-      <Route path="/users" component={UsersPage} />
-    </Route> */}
+ReactDOM.render(<App/>, document.getElementById('app'));

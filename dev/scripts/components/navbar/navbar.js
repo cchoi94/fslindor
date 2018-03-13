@@ -9,10 +9,43 @@ import App from '../../app';
     
 
 class Navbar extends React.Component { 
+    constructor() {
+        super();
+        this.state = {
+            showHam: true,
+            showHamIcon: false,
+            showXIcon: false,
+        };
+
+        this.handleShowHam = this.handleShowHam.bind(this);
+        this.handleShowHamIcon = this.handleShowHamIcon.bind(this);
+
+    }
+
+    handleShowHam(e) {
+        let toggleHam = !this.state.showHam;
+        let toggleHamIcon = !this.state.showHamIcon;
+        this.setState ({
+            showHam: toggleHam,
+            showHamIcon: toggleHamIcon
+        })
+    }
+
+    handleShowHamIcon(e) {
+        let toggleHamIcon = !this.state.showHamIcon
+        this.setState ({
+            showHamIcon: toggleHamIcon
+        })
+    }
+
     render () { 
+
+        let showHam = (this.state.showHam) ? 'navbarHidden' : 'navbar';
+        let showHamIcon = (this.state.showHamIcon) ? 'hidden' : 'hamburgerIcon';
+
         return (
                 <div>
-                    <div className="navbar">
+                    <div className={showHam}>
                             <img className="logo" src="/assets/images/logo.png" alt="logo"/>
                                 <ul className="navLinks">
                                     <a href="#home">
@@ -30,9 +63,14 @@ class Navbar extends React.Component {
                                             Team
                                         </li>
                                     </a>
-                                    <a>
+                                    <a href="#eventsPrograms">
                                         <li>
-                                        <Link to="/eventsProgram">Events and Programs</Link>
+                                            Events and Programs
+                                        </li>
+                                    </a>
+                                    <a href="#media">
+                                        <li>
+                                            Media
                                         </li>
                                     </a>
                                     <a href="#sponsor">
@@ -53,6 +91,9 @@ class Navbar extends React.Component {
                                     Donate Now
                                     </button>   
                                 </form>
+                                <h4 onClick={this.handleShowHam} className='xHamIcon'>X</h4>
                         </div>
+                    <div onClick={this.handleShowHam} className={showHamIcon} alt=""/>
                 </div>
 ) } } export default Navbar
+ReactDOM.render(<Navbar/>, document.getElementById('navbar'));

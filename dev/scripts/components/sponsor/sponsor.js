@@ -6,7 +6,7 @@ class Sponsor extends React.Component {
             <div>
                 <section id="sponsor" className='sponsor'>
                     <div className="wrapper">
-                        <h1>Sponsorship</h1>
+                        <h1>Sponsors</h1>
                         <p>
                             The Sylvenie Lindor Foundation & Jean Marcelin Fontaine Multicultural Centre Inc. 
                             Would like to express its tremendous gratitude to all Public, Private and Community 
