@@ -48,7 +48,7 @@ class Navbar extends React.Component {
                     <div className={showHam}>
                             <img className="logo" src="/assets/images/logo.png" alt="logo"/>
                                 <ul className="navLinks">
-                                    <a onClick={this.handleShowHam} href="#home">
+                                    <a onClick={this.handleShowHam} href="/">
                                         <li>
                                             Home
                                         </li>
@@ -63,17 +63,20 @@ class Navbar extends React.Component {
                                             Team
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#eventsPrograms">
+                                    <a onClick={this.handleShowHam} href="eventsPrograms">
                                         <li>
                                             Events and Programs
                                         </li>
+                                            <div className="subNavLinks">
+                                                <a href="#">Link 1</a>
+                                            </div>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#media">
+                                    <a onClick={this.handleShowHam} href="media">
                                         <li>
                                             Media
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#sponsor">
+                                    <a onClick={this.handleShowHam} href="sponsor">
                                         <li>
                                             Become a Supporter
                                         </li>

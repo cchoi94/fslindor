@@ -8,8 +8,26 @@
         display: block;
     }
     img {
-        width: 50%;
+        max-width: 50%;
         height: 22em;
         padding: 1em;
+    }
+    .soccerClubImg {
+        text-align: center;
+    }
+    .rmf {
+        h4 {
+            border-bottom: 2px solid #ffc266;
+            margin-left: 1em;
+            display: inline-block;
+        }
+
+        ul {
+            padding-left: 1em;
+        }
+
+        li {
+            padding: 1em 0;
+        }
     }
 }

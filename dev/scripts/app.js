@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import { 
-    BrowserRouter as Router, 
-    Route, Link, NavLink, IndexRoute } from 'react-router-dom';
+// import { 
+//     BrowserRouter as Router, 
+//     Route, Link, NavLink, IndexRoute } from 'react-router-dom';
 import { ajax } from 'jquery';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import Landing from './components/landing/landing';
 import Navbar from './components/navbar/navbar';
@@ -19,13 +20,23 @@ class App extends React.Component {
             <div>
                 <Landing />
                 <About />
-                <EventsPrograms />
-                <Media />
-                <Sponsor />
+                {/* <EventsPrograms /> */}
+                {/* <Media /> */}
+                {/* <Sponsor /> */}
                 <Contact />
             </div>
         )
     }
 }
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(
+<BrowserRouter>
+    <div>
+        <Route exact path='/' component={App}/>
+        <Route path='/eventsPrograms' component={EventsPrograms}/>
+        <Route path='/media' component={Media}/>
+        <Route path='/sponsor' component={Sponsor}/>
+    </div>
+
+</BrowserRouter>,
+document.getElementById('app'));

@@ -13,7 +13,7 @@ class Media extends React.Component {
                         <div className="wrapper">
                             <h1>Media</h1>
                             <h2>
-                                Visit to Legislative assembly of Ontario with Honourable Shafiq Qaadri MPP  of North Etobicoke
+                                Visit to Legislative assembly of Ontario with Honourable Shafiq Qaadri MPP  of North Etobicoke - October 28th, 2017
                             </h2>
                             <div className="container">
                                 <img src="/assets/images/mediaImages/legAssemOne.png" alt=""/>

@@ -17,13 +17,18 @@ class EventsPrograms extends React.Component {
                                 Is an annual Cultural Exchange and Dialogue between Youth 18 years and older and the public in the GTA about many important topics that distinguish our lives as part of the Canadian society. Aiming to create integration in the context of cultural diversity, the Forum will help each community to explore the reality of the other. The topic changes each year. During the Multicultural Forum, each community presents a particular aspect of 
                                 their culture that enables exchanges though exposition.
                             </p>
-                            <div className="container">
+                            <div className="container spaceAround">
                                 <img src="/assets/images/mediaImages/TAMOne.png" alt=""/>
-                                <img src="/assets/images/mediaImages/TAMTwo.png" alt=""/>
-                            </div>
-                            <div className="container">
                                 <img src="/assets/images/mediaImages/TAMThree.png" alt=""/>
-                                <img src="/assets/images/mediaImages/TAMFour.png" alt=""/>
+                            </div>
+                            <div className="container rmf">
+                                <h4>Recent Multicultural Forums</h4>
+                                <ul>
+                                    <li>First Multicultural Forum: Civic Rights and Integration –August 22, 2015</li>
+                                    <li>Second Annual Multicultural Forum: Climate Change & Integration- August 19th, 2016</li>
+                                    <li>Third Annual Multicultural Forum:  Canadian Identity & Inclusion – September 9th, 2017</li>
+                                    <li>Fourth Annual Multicultural Forum: Canadian Democratic Values & Global Migration -<strong> Press release & Flyer will be sent out shortly </strong> </li>
+                                </ul>
                             </div>
                         </div>
                         <div className="container">
@@ -42,10 +47,6 @@ class EventsPrograms extends React.Component {
                             <div className="container">
                                 <img src="/assets/images/mediaImages/francImmOne.png" alt=""/>
                                 <img src="/assets/images/mediaImages/francImmTwo.png" alt=""/>
-                            </div>
-                            <div className="container">
-                                <img src="/assets/images/mediaImages/francImmThree.png" alt=""/>
-                                <img src="/assets/images/mediaImages/francImmFour.png" alt=""/>
                             </div>
                         </div>
                         <div className="container">
@@ -68,6 +69,9 @@ class EventsPrograms extends React.Component {
                                 We use soccer as a means toward helping youth integrate and as well for fun. The participation of youth in the 
                                 soccer field help them developing networking with youth from variety communities. 
                             </p>
+                            <div className="container soccerClubImg">
+                                <img src="/assets/images/mediaImages/soccerClub.png" alt=""/>
+                            </div>
                         </div>
                         <div className="container">
                             <h2>Bursaries</h2>
@@ -89,6 +93,17 @@ class EventsPrograms extends React.Component {
                                 Boys and Girls Club in Haiti – A place for Youth in Haiti to be creative – to take action for change. Through ACT- Action to Change Tomorrow, the Foundation organizes workshops that enable 
                                 Youth in Haiti understanding the global world challenges and to contribute to changing them.
                             </p>
+                        </div>
+                        <div className="container">
+                            <h2>Trip to Haiti - Visit to Primary and secondary school in Haiti - January 2016</h2>
+                            <p>
+                                Boys and Girls Club in Haiti – A place for Youth in Haiti to be creative – to take action for change. Through ACT- Action to Change Tomorrow, the Foundation organizes workshops that enable 
+                                Youth in Haiti understanding the global world challenges and to contribute to changing them.
+                            </p>
+                            <div className="container">
+                                <img src="/assets/images/mediaImages/tripToHaiti.png" alt=""/>
+                                <img src="/assets/images/mediaImages/tripToHaitiTwo.png" alt=""/>
+                            </div>
                         </div>
                         <div className="container">
                             <h2>Good night</h2>

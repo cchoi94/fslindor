@@ -16,7 +16,7 @@
         display: block;
             img {
                 display: block;
-                width: 100%;
+                max-width: 100%;
             }
     }
     .slideOne, .slideTwo, .slideThree, .slideFour, .slideFive {
@@ -32,6 +32,10 @@
         flex-direction: column;
             .textBox {
                 width: 100%;
+            }
+            img {
+                display: block;
+                max-width: 100%;
             }
     }
     .bioBox {
@@ -65,5 +69,8 @@
 
     h3 {
         font-size: 1.5em;
+    }
+    .media img {
+        max-width: 100% !important;
     }
 }

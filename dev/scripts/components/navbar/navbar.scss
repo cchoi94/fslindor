@@ -31,10 +31,37 @@
     justify-content: space-around;
     a {
         padding: 0 1em;
+        transition: 0.3s;
     }
     li {
         color: #1e1e1e;
     }
+}
+
+.navLinks a:hover {
+    transform: scale(1.05);
+}
+
+.subNavLinks{
+    display: none;
+    width: 100%;
+    background-color: rgb(255, 169, 56);
+    color: #fff;  
+    z-index: 10;
+        a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+        }
+}
+
+.subNavLinks a:hover {
+    background-color: rgb(219, 133, 22);
+    color: #fff;
+}
+
+.navLinks a:hover .subNavLinks{
+    display: block;
 }
 
 button {

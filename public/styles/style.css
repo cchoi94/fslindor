@@ -27,9 +27,31 @@
   display: flex;
   justify-content: space-around; }
   .navLinks a {
-    padding: 0 1em; }
+    padding: 0 1em;
+    transition: 0.3s; }
   .navLinks li {
     color: #1e1e1e; }
+
+.navLinks a:hover {
+  transform: scale(1.05); }
+
+.subNavLinks {
+  display: none;
+  width: 100%;
+  background-color: #ffa938;
+  color: #fff;
+  z-index: 10; }
+  .subNavLinks a {
+    color: #fff;
+    text-decoration: none;
+    display: block; }
+
+.subNavLinks a:hover {
+  background-color: #db8516;
+  color: #fff; }
+
+.navLinks a:hover .subNavLinks {
+  display: block; }
 
 button {
   border-radius: 50px;
@@ -238,14 +260,28 @@ i:hover {
   display: block; }
 
 .eventsPrograms img {
-  width: 50%;
+  max-width: 50%;
   height: 22em;
   padding: 1em; }
+
+.eventsPrograms .soccerClubImg {
+  text-align: center; }
+
+.eventsPrograms .rmf h4 {
+  border-bottom: 2px solid #ffc266;
+  margin-left: 1em;
+  display: inline-block; }
+
+.eventsPrograms .rmf ul {
+  padding-left: 1em; }
+
+.eventsPrograms .rmf li {
+  padding: 1em 0; }
 
 .media {
   text-align: center; }
   .media img {
-    width: 50%;
+    max-width: 50%;
     height: 22em;
     padding: 1em; }
 
@@ -254,7 +290,7 @@ i:hover {
     display: block; }
     .container img {
       display: block;
-      width: 100%; }
+      max-width: 100%; }
   .slideOne, .slideTwo, .slideThree, .slideFour, .slideFive {
     background-size: contain;
     background-position: center;
@@ -266,6 +302,9 @@ i:hover {
     flex-direction: column; }
     .container .textBox {
       width: 100%; }
+    .container img {
+      display: block;
+      max-width: 100%; }
   .bioBox {
     width: 100%; }
   .navbar {
@@ -287,7 +326,9 @@ i:hover {
     display: block;
     cursor: pointer; }
   h3 {
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+  .media img {
+    max-width: 100% !important; } }
 
 * {
   box-sizing: border-box;
@@ -363,3 +404,6 @@ button:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
+
+.spaceAround {
+  justify-content: space-around; }
