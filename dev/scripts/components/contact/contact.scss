@@ -1,7 +1,11 @@
 .contact {
     text-align: center;
+    background: rgb(255, 169, 56);;
         .imgBox {
             justify-content: center;
+        }
+        h1, h2 {
+            border-bottom: 1px solid #1e1e1e;
         }
 }
 
@@ -14,3 +18,4 @@ i {
 i:hover {
     transform: scale(1.3);
 }
+

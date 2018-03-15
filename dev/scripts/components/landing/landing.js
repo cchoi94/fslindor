@@ -11,7 +11,8 @@ class Landing extends React.Component {
           slidesToScroll: 1,
           className: 'carousel',
           autoplay: true,
-          autoplaySpeed: 3000
+          autoplaySpeed: 3000,
+          dots: false
         };
         return (
           <div>
@@ -40,6 +41,11 @@ class Landing extends React.Component {
                   </div>
                 </a>
               </Slider>
+              <p>
+                The Sylvenie Lindor Foundation has emerged as means toward helping Black francophone Youth succeed in overcoming 
+                social & Linguistics barriers in the City of Toronto.  We use soccer and Youth dialogue for Integration, Inclusion and Social Cohesion that 
+                enable Youth exploring opportunities 
+              </p>
             </section>
           </div>
         );

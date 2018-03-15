@@ -121,6 +121,12 @@ h3 {
 .carousel {
   padding-top: 8em; }
 
+#home p {
+  padding: 0 5em;
+  text-align: center;
+  color: #fff;
+  background: #ffa938; }
+
 .about {
   text-align: center; }
 
@@ -239,9 +245,12 @@ p {
   line-height: 2; }
 
 .contact {
-  text-align: center; }
+  text-align: center;
+  background: #ffa938; }
   .contact .imgBox {
     justify-content: center; }
+  .contact h1, .contact h2 {
+    border-bottom: 1px solid #1e1e1e; }
 
 i {
   font-size: 3em;
@@ -277,6 +286,15 @@ i:hover {
 
 .eventsPrograms .rmf li {
   padding: 1em 0; }
+
+.eventsPrograms .soccerPlayerNames {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1em; }
+  .eventsPrograms .soccerPlayerNames label {
+    width: 30%; }
 
 .media {
   text-align: center; }

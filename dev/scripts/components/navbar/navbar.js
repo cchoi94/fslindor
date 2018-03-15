@@ -53,12 +53,12 @@ class Navbar extends React.Component {
                                             Home
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#about">
+                                    <a onClick={this.handleShowHam} href="/#about">
                                         <li>
                                             About Us
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#team">
+                                    <a onClick={this.handleShowHam} href="/#team">
                                         <li>
                                             Team
                                         </li>
@@ -67,21 +67,21 @@ class Navbar extends React.Component {
                                         <li>
                                             Events and Programs
                                         </li>
-                                            <div className="subNavLinks">
+                                            {/* <div className="subNavLinks">
                                                 <a href="#">Link 1</a>
-                                            </div>
+                                            </div> */}
                                     </a>
-                                    <a onClick={this.handleShowHam} href="media">
+                                    {/* <a onClick={this.handleShowHam} href="media">
                                         <li>
                                             Media
                                         </li>
-                                    </a>
+                                    </a> */}
                                     <a onClick={this.handleShowHam} href="sponsor">
                                         <li>
                                             Become a Supporter
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#contact">
+                                    <a onClick={this.handleShowHam} href="/#contact">
                                         <li>
                                             Contact Us
                                         </li>
