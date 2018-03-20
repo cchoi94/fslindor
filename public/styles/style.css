@@ -74,6 +74,17 @@ button {
   display: none;
   font-size: 1.5em; }
 
+.languageBox {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
+  font-size: 0.8em; }
+  .languageBox button {
+    margin: 0.5em; }
+  .languageBox a {
+    color: #fff; }
+
 .logo-slide {
   height: 80vh;
   position: relative; }
@@ -122,7 +133,7 @@ h3 {
   padding-top: 8em; }
 
 #home p {
-  padding: 0 5em;
+  padding: 0 8em;
   text-align: center;
   color: #fff;
   background: #ffa938; }
@@ -141,6 +152,9 @@ p {
     font-size: 0.9em; }
 
 #team .wrapper {
+  text-align: center; }
+
+#teamFr {
   text-align: center; }
 
 .bioImg {

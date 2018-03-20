@@ -87,3 +87,17 @@ button {
     display: none;
     font-size: 1.5em;
 }
+
+.languageBox {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+    font-size: 0.8em;
+        button {
+            margin: 0.5em;
+        }
+        a {
+            color: #fff;
+        }
+}

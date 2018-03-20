@@ -3,12 +3,8 @@ import ReactDOM from 'react-dom'
 import { 
     BrowserRouter as Router, 
     Route, Link, NavLink, Switch } from 'react-router-dom';
-    
-import EventsPrograms from '../eventsPrograms/eventsPrograms';
-import App from '../../app';    
-    
 
-class Navbar extends React.Component { 
+class NavbarFr extends React.Component { 
     constructor() {
         super();
         this.state = {
@@ -56,24 +52,24 @@ class Navbar extends React.Component {
                     <div className={showHam}>
                             <img className="logo" src="/assets/images/logo.png" alt="logo"/>
                                 <ul className="navLinks">
-                                    <a onClick={this.handleShowHam} href="/">
+                                    <a onClick={this.handleShowHam} href="/fr">
                                         <li>
-                                            Home
+                                            Acceuil
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="/#about">
+                                    <a onClick={this.handleShowHam} href="#aboutFr">
                                         <li>
-                                            About Us
+                                            Qui Sommes-nous
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="/#team">
+                                    <a onClick={this.handleShowHam} href="#teamFr">
                                         <li>
-                                            Team
+                                            Notre équipe
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="eventsPrograms">
+                                    <a onClick={this.handleShowHam} href="/eventsProgramsFr">
                                         <li>
-                                            Events and Programs
+                                            Événements & programmes
                                         </li>
                                             {/* <div className="subNavLinks">
                                                 <a href="#">Link 1</a>
@@ -84,16 +80,17 @@ class Navbar extends React.Component {
                                             Media
                                         </li>
                                     </a> */}
-                                    <a onClick={this.handleShowHam} href="sponsor">
+                                    <a onClick={this.handleShowHam} href="/sponsorFr">
                                         <li>
-                                            Become a Supporter
+                                            Supporter la cause
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="/#contact">
+                                    <a onClick={this.handleShowHam} href="#contactFr">
                                         <li>
-                                            Contact Us
+                                            Contactez
                                         </li>
                                     </a>
+                                </ul>
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input name="cmd" type="hidden" value="_s-xclick"/>
                                     <input name="hosted_button_id" type="hidden" value="SG6LQ3UC3KR84"/> 
@@ -101,10 +98,8 @@ class Navbar extends React.Component {
                                     Donate Now
                                     </button>   
                                 </form>
-                                </ul>
                                 <h4 onClick={this.handleShowHam} className='xHamIcon'>X</h4>
                         </div>
                     <div onClick={this.handleShowHam} className={showHamIcon} alt=""/>
                 </div>
-) } } export default Navbar
-// ReactDOM.render(<Navbar/>, document.getElementById('navbar'));
+) } } export default NavbarFr

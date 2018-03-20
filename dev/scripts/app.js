@@ -14,15 +14,17 @@ import Contact from './components/contact/contact';
 import EventsPrograms from './components/eventsPrograms/eventsPrograms';
 import Media from './components/media/media';
 
+import LandingFr from './components/landing-fr/landing-fr';
+import EventsProgramsFr from './components/eventsPrograms-fr/eventsProgramsFr';
+import SponsorFr from './components/sponsor-fr/sponsorFr';
+
 class App extends React.Component {
     render() {
         return (
             <div>
+                <Navbar />
                 <Landing />
                 <About />
-                {/* <EventsPrograms /> */}
-                {/* <Media /> */}
-                {/* <Sponsor /> */}
                 <Contact />
             </div>
         )
@@ -36,6 +38,9 @@ ReactDOM.render(
         <Route path='/eventsPrograms' component={EventsPrograms}/>
         <Route path='/media' component={Media}/>
         <Route path='/sponsor' component={Sponsor}/>
+        <Route path='/fr' component component={LandingFr}/>
+        <Route path='/eventsProgramsFr' component={EventsProgramsFr} />
+        <Route path='/sponsorFr' component={SponsorFr} />
     </div>
 
 </BrowserRouter>,
