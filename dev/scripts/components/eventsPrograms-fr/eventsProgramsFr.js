@@ -58,13 +58,21 @@ class EventsProgramsFr extends React.Component {
                             </div>
                         </div>
                         <div className="container">
-                            <h2>Mouvement de Jeunesse Haïtienne Canada</h2>
+                            <h2>Mouvement des Jeunes Haitiens</h2>
                             <p>
-                                Mouvement de la Jeunesse Haïtienne Canada (HYMC): Un lieu pour que les jeunes prennent des mesures nécessaires pour le changement – Nous fournissons Mentorship- Football Club- Sport Contre Violence ; Sports pour l’intégration. Au HYMC, Nous travaillons avec la jeunesse haïtienne, Francophone et tous les jeunes adultes dans la RGT en les aidant à développer leurs compétences en leadership. Grâce au programme d’entrepreneuriat, nous travaillons étroitement avec les Jeunes adultes et les orientons en fonction de leur aspiration.
+                                La Fondation Sylvenie Linder est émergé comme moyen d'aider les jeunes francophones noirs à surmonter les barrières sociales et linguistiques dans la  ville de Toronto.  Nous utilisons le Forum des Jeunes , le soccer pour l'intégration, l'inclusion et la cohésion sociale qui permettent aux jeunes d'explorer les opportunités
                             </p>
-                            <h2> Toronto  United Football  Club ( TUFC)</h2>
+                            <h2>Tournoi de soccer</h2>
                             <p>
-                                <strong>History: </strong> The Toronto United Football Club was established in Toronto in October 2014. The Club is composed of male athletes. The Club is part of the Haitian Youth Movement Canada which is an entity of the Sylvenie Lindor Foundation. The Haitian Youth Movement Canada is a place for youth to take action and develop leadership skills they need in whatever paths they chose to follow in life. With the Slogan: <strong> Soccer for Integration – Soccer Social Cohesion, </strong> the Club implements all programs to help the athletes succeed not only in the soccer field but in life in general. The Soccer Club is comprised of male athletes from a variety cultural of backgrounds. The Toronto United Football Club is a non-profit association. The Club is administered by 5 board directors and 10 Executives directors. The Club is sustained by the Sylvenie Lindor Foundation, the Haitian Youth Movement Canada and the Haitian Community of Toronto.
+                                Nous utilisons le soccer comme moyen d'aider les jeunes à s'intégrer et aussi bien pour s'amuser. La participation des jeunes dans le terrain de soccer les aide à développer le réseautage avec les jeunes des communautés de variétés. 
+                            </p>
+                            <h2>Bonne nuit</h2>
+                            <p>
+                                C'est une nuit où la jeunesse haïtienne et le grenadier FC se rassemblent pour l'interaction sociale.  Bonne nuit est tenue une fois par mois.  Pendant cette nuit, les jeunes regardent un film ou un documentaire ensemble et y réfléchissent.  La nuit est amusée par la musique et le rafraîchissement est servi. 
+                            </p>
+                            <h2>Tournée canadienne</h2>
+                            <p>
+                                Nous organisons des tournées canadiennes non seulement pour le plaisir, mais aussi pour aider les jeunes à comprendre l'histoire du Canada. Nous visitons les sites touristiques et les musées canadiens.  Une approche pour comprendre ceux qui ont ouvert la voie devant nous pour un Canada qui englobe la diversité.
                             </p>
                             <h2>Bursaries</h2>
                             <p>

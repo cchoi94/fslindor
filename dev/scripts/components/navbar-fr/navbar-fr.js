@@ -75,11 +75,11 @@ class NavbarFr extends React.Component {
                                                 <a href="#">Link 1</a>
                                             </div> */}
                                     </a>
-                                    {/* <a onClick={this.handleShowHam} href="media">
+                                    <a onClick={this.handleShowHam} href="gallery">
                                         <li>
-                                            Media
+                                            Galerie
                                         </li>
-                                    </a> */}
+                                    </a>
                                     <a onClick={this.handleShowHam} href="/sponsorFr">
                                         <li>
                                             Supporter la cause

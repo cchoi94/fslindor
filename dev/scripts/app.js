@@ -12,7 +12,7 @@ import About from './components/about/about';
 import Sponsor from './components/sponsor/sponsor';
 import Contact from './components/contact/contact';
 import EventsPrograms from './components/eventsPrograms/eventsPrograms';
-import Media from './components/media/media';
+import Gallery from './components/gallery/gallery';
 
 import LandingFr from './components/landing-fr/landing-fr';
 import EventsProgramsFr from './components/eventsPrograms-fr/eventsProgramsFr';
@@ -38,6 +38,7 @@ ReactDOM.render(
         <Route path='/eventsPrograms' component={EventsPrograms}/>
         <Route path='/media' component={Media}/>
         <Route path='/sponsor' component={Sponsor}/>
+        <Route path='/gallery' component={Gallery}/>
         <Route path='/fr' component component={LandingFr}/>
         <Route path='/eventsProgramsFr' component={EventsProgramsFr} />
         <Route path='/sponsorFr' component={SponsorFr} />
