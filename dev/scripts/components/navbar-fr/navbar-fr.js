@@ -94,7 +94,7 @@ class NavbarFr extends React.Component {
                                     <input name="cmd" type="hidden" value="_s-xclick"/>
                                     <input name="hosted_button_id" type="hidden" value="SG6LQ3UC3KR84"/> 
                                     <button className="donate">
-                                    Donate Now
+                                    Donnez
                                     </button>   
                                 </form>
                                 <div className="normalLangBox">

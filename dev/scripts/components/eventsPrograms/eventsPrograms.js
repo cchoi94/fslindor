@@ -212,13 +212,6 @@ class EventsPrograms extends React.Component {
                             </div>
                         </div>
                         <div className="container">
-                            <h2>Bursaries</h2>
-                            <p>
-                                The Sylvenie Lindor Foundation & Jean Marcelin Fontaine Multicultural Centre Inc. 
-                                is always looking for opportunities that enable youth to excel in their careers. To this end, we provide Scholarship to students in their first year of College or University. The Scholarship is based on the youth leadership and involvement and achievement in the community.
-                            </p>
-                        </div>
-                        <div className="container">
                             <h2>Sponsorship Programs for Children in Haiti <br/> Launched in September 2014</h2>
                             <p>
                                 Sponsorship and Education plan in Haiti – This program was launched in September 2015. It has enabled us to provide school supplies and financial assistance to Children in need in Haiti. We have now 30 children in the program but more than 50 are already waiting for assistance. All school supplies are bought in Haiti in an aim to stimulate growth of the Haitian economy.

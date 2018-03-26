@@ -74,10 +74,6 @@ class EventsProgramsFr extends React.Component {
                             <p>
                                 Nous organisons des tournées canadiennes non seulement pour le plaisir, mais aussi pour aider les jeunes à comprendre l'histoire du Canada. Nous visitons les sites touristiques et les musées canadiens.  Une approche pour comprendre ceux qui ont ouvert la voie devant nous pour un Canada qui englobe la diversité.
                             </p>
-                            <h2>Bursaries</h2>
-                            <p>
-                            The Sylvenie Lindor Foundation & Jean Marcelin Fontaine Multicultural Centre Inc. is always looking for opportunities that enable youth to excel in their careers. To this end, we provide Scholarship to students in their first year of College or University. The Scholarship is based on the youth leadership and involvement and achievement in the community.
-                            </p>
                         </div>
                         <div className="container">
                             <h2>Programme d’entrepreneuriat des Jeunes</h2>
@@ -232,23 +228,16 @@ class EventsProgramsFr extends React.Component {
                             </div>
                         </div>
                         <div className="container">
-                            <h2>Bursaries</h2>
-                            <p>
-                                The Sylvenie Lindor Foundation & Jean Marcelin Fontaine Multicultural Centre Inc. 
-                                is always looking for opportunities that enable youth to excel in their careers. To this end, we provide Scholarship to students in their first year of College or University. The Scholarship is based on the youth leadership and involvement and achievement in the community.
-                            </p>
-                        </div>
-                        <div className="container">
                             <h2>Club Garçons et Filles en Haïti</h2>
                             <p>
                                 Un lieu pour les jeunes en Haïti de recréer – de prendre des mesures pour le changement. Grace à ACT -Action pour Changer Demain, la Fondation organise des ateliers de travail qui permettent aux jeunes en Haïti à comprendre les défies mondiaux et agir en conséquence.
                             </p>
                         </div>
                         <div className="container">
-                            <h2>Trip to Haiti - Visit to Primary and secondary school in Haiti - January 2016</h2>
+                            <h2> Voyage en Haïti - Visite à l'école primaire et secondaire en Haïti - Janvier 2016</h2>
                             <p>
-                                Boys and Girls Club in Haiti – A place for Youth in Haiti to be creative – to take action for change. Through ACT- Action to Change Tomorrow, the Foundation organizes workshops that enable 
-                                Youth in Haiti understanding the global world challenges and to contribute to changing them.
+                            Club Garçons et Filles en Haïti - Un lieu pour les jeunes en Haïti pour être créatif - agir pour le changement. Grâce à ACT- Action to Change Tomorrow, la Fondation organise des ateliers qui permettent
+                            Les jeunes d'Haïti comprennent les défis mondiaux et contribuent à les changer.
                             </p>
                             <div className="container">
                                 <img src="/assets/images/mediaImages/tripToHaiti.png" alt=""/>
@@ -256,18 +245,18 @@ class EventsProgramsFr extends React.Component {
                             </div>
                         </div>
                         <div className="container">
-                            <h2>Good night</h2>
+                            <h2>Bonne nuit</h2>
                             <p>
-                                This is a night where the Haitian youth and the Grenadier Fc gather for social interacting.  Good Night is held once a month.  During that night the Youth watch a movie or documentary together 
-                                and reflect on it.  The night is entertained by Music and refreshment is served. 
+                                C'est une nuit où la jeunesse haïtienne et le Grenadier Fc se réunissent pour interagir socialement. Bonne nuit a lieu une fois par mois. Pendant cette nuit, les jeunes regardent ensemble un film ou un documentaire
+                                et réfléchissez-y. La nuit est animée par la musique et des rafraîchissements sont servis. 
                             </p>
                         </div>
                         <div className="container">
-                            <h2>Canadian Tours</h2>
+                            <h2>Tours canadiens</h2>
                             <p>
-                                We do organize Canadian Tours not only for fun but to help youth understand Canadian history. 
-                                We do visit Canadian touristic sites and museums.  An approach   to understand those who paved the 
-                                way before us for a Canada that embrace diversity
+                            Nous organisons des tournées canadiennes non seulement pour le plaisir, mais aussi pour aider les jeunes à comprendre l'histoire du Canada.
+                            Nous visitons les sites touristiques canadiens et les musées. Une approche pour comprendre ceux qui ont pavé la voie
+                            chemin devant nous pour un Canada qui embrasse la diversité
                             </p>
                         </div>
                     </div>
