@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom'
 import { 
     BrowserRouter as Router, 
     Route, Link, NavLink, Switch } from 'react-router-dom'; 
+import Navbar from '../navbar/navbar';
 
 class EventsPrograms extends React.Component { 
     render () { 
         return (
             <div>
+                <Navbar />
                 <section id="eventsPrograms" className='eventsPrograms'>
                     <div className="wrapper">
                         <h1>Events & Programs</h1>

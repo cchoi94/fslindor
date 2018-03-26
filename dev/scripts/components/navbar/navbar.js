@@ -101,8 +101,12 @@ class Navbar extends React.Component {
                                     Donate Now
                                     </button>   
                                 </form>
-                                </ul>
+                                <div className="normalLangBox">
+                                    <a onClick={this.handleShowHam} href="/">English</a>
+                                    <a onClick={this.handleShowHam} href="/fr">Francais</a>
+                                </div>
                                 <h4 onClick={this.handleShowHam} className='xHamIcon'>X</h4>
+                                </ul>
                         </div>
                     <div onClick={this.handleShowHam} className={showHamIcon} alt=""/>
                 </div>

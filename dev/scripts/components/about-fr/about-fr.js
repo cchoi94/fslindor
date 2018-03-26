@@ -181,13 +181,13 @@ class AboutFr extends React.Component {
                                         Rédactrice et traductrice, Mlle Chrystal Smith est une spécialiste de la langue anglaise et est passionnée par la traduction française-anglaise. Sa formation générale comprend un diplôme et une maitrise en traductologie de l’Université York. Comme la responsable des affaires publique et affaires francophones FSL&CMJMF, elle réalise son aspiration de participer dans le développement des programmes de sensibilisation pour les jeunes à Toronto et nouveaux arrivants au Canada.  
                                     </p>
                                 </div>
-                                <div className="bioBox">
+                                {/* <div className="bioBox">
                                     <div className="bioImg bioImgSeven"></div>
                                     <label>Mme. Fayse Lindor <br/> Offiicer de liaison communautaire</label>
                                     <br/>
                                     <button onClick={this.handleShowBioSeven}>lis moi</button>
                                     <p className={showDesSeven}></p>
-                                </div>
+                                </div> */}
                             </div>
                                 <h2>Directeurs Exécutif</h2>
                                     <ul>

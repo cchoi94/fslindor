@@ -57,12 +57,12 @@ class NavbarFr extends React.Component {
                                             Acceuil
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#aboutFr">
+                                    <a onClick={this.handleShowHam} href="fr#aboutFr">
                                         <li>
                                             Qui Sommes-nous
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#teamFr">
+                                    <a onClick={this.handleShowHam} href="fr#teamFr">
                                         <li>
                                             Notre équipe
                                         </li>
@@ -85,12 +85,11 @@ class NavbarFr extends React.Component {
                                             Supporter la cause
                                         </li>
                                     </a>
-                                    <a onClick={this.handleShowHam} href="#contactFr">
+                                    <a onClick={this.handleShowHam} href="fr#contactFr">
                                         <li>
                                             Contactez
                                         </li>
                                     </a>
-                                </ul>
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input name="cmd" type="hidden" value="_s-xclick"/>
                                     <input name="hosted_button_id" type="hidden" value="SG6LQ3UC3KR84"/> 
@@ -98,7 +97,12 @@ class NavbarFr extends React.Component {
                                     Donate Now
                                     </button>   
                                 </form>
+                                <div className="normalLangBox">
+                                    <a onClick={this.handleShowHam} href="/">English</a>
+                                    <a onClick={this.handleShowHam} href="/fr">Francais</a>
+                                </div>
                                 <h4 onClick={this.handleShowHam} className='xHamIcon'>X</h4>
+                                </ul>
                         </div>
                     <div onClick={this.handleShowHam} className={showHamIcon} alt=""/>
                 </div>

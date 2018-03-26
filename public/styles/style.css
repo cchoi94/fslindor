@@ -57,7 +57,7 @@ button {
   border-radius: 50px;
   background: #ffa938;
   color: #fff;
-  padding: 0.3em 1em;
+  padding: 0.1em 1em;
   font-size: 1.5em; }
 
 .hamburgerIcon {
@@ -84,6 +84,15 @@ button {
     margin: 0.5em; }
   .languageBox a {
     color: #fff; }
+
+.normalLangBox a {
+  color: #ffa938;
+  transition: 0.3s;
+  padding: 0 1em; }
+
+.normalLangBox a:hover {
+  color: #1e1e1e;
+  transform: scale(1.03); }
 
 .logo-slide {
   height: 80vh;

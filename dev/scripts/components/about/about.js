@@ -185,13 +185,13 @@ class About extends React.Component {
                                         for youth and new immigrants to Canada, a contribution to which she has always aspired.   
                                     </p>
                                 </div>
-                                <div className="bioBox">
+                                {/* <div className="bioBox">
                                     <div className="bioImg bioImgSeven"></div>
                                     <label>Mrs. Fayse Lindor <br/> Community Liaison Officer</label>
                                     <br/>
                                     <button onClick={this.handleShowBioSeven}>Read more</button>
                                     <p className={showDesSeven}></p>
-                                </div>
+                                </div> */}
                             </div>
                                 <h2>Excutive team</h2>
                                     <ul>

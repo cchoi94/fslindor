@@ -1,9 +1,11 @@
-import React from 'react'; 
+import React from 'react';
+import Navbar from '../navbar/navbar'; 
 
 class Sponsor extends React.Component { 
     render () { 
         return (
             <div>
+                <Navbar />
                 <section id="sponsor" className='sponsor'>
                     <div className="wrapper">
                         <h1>Sponsors</h1>

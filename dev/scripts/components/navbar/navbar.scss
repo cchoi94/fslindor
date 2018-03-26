@@ -68,7 +68,7 @@ button {
     border-radius: 50px;
     background: rgb(255, 169, 56);
     color: #fff;
-    padding: 0.3em 1em;
+    padding: 0.1em 1em;
     font-size: 1.5em;
 }
 
@@ -100,4 +100,15 @@ button {
         a {
             color: #fff;
         }
+}
+
+.normalLangBox a {
+    color: rgb(255, 169, 56);
+    transition: 0.3s;
+    padding: 0 1em;
+}
+
+.normalLangBox a:hover {
+    color: #1e1e1e;
+    transform: scale(1.03);
 }
